@@ -1,0 +1,67 @@
+#header {
+  margin-left: 0;
+  margin-bottom: 130px;
+  background-color: rgba(255,255,255,0.9);
+  height: 65px;
+  border-bottom: solid 1px #eaeaea;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+#topmenu .menu {
+  margin: 0;
+  margin-bottom: 7px;
+  list-style: none;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+  z-index: 9999;
+  display: table;
+  -webkit-transition: opacity 250ms, visibility 250ms;
+  -moz-transition: opacity 250ms, visibility 250ms;
+  -ms-transition: opacity 250ms, visibility 250ms;
+  -o-transition: opacity 250ms, visibility 250ms;
+  transition: opacity 250ms, visibility 250ms;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#overlay * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+.inner-header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+div {
+  display: block;
+}
