@@ -63,9 +63,14 @@ header img{
 }
 
 
+p{
+    color: aliceblue;
+         font-family: Helvetica, sans-serif;
 
+}
 
 //From http://www.nowstartwebdesign.com/2014/09/pure-css-horizontal-drop-down-menu-bar.html
+
 .menu {
   position: relative;
   height: 44px;
@@ -110,6 +115,11 @@ header img{
   -ms-transition: color 0.25s ease-out;
   -o-transition: color 0.25s ease-out;
   transition: color 0.25s ease-out;
+}
+
+table{
+    align-self: center;
+    align-content: center;
 }
 
 
