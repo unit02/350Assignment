@@ -64,6 +64,14 @@ header img{
 
 
 
+table td{
+    text-align: center;
+
+}
+
+section{
+    align-content: center;
+}
 
 //From http://www.nowstartwebdesign.com/2014/09/pure-css-horizontal-drop-down-menu-bar.html
 .menu {
