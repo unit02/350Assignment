@@ -1,6 +1,7 @@
 	* {
 				font-family: Arial, Verdana, sans-serif;
 				text-align: center;
+        margin: auto;
     }
 			body {			
 				margin: 0 auto;}
@@ -76,6 +77,11 @@ p {
 
 section{
     align-content: center;
+   
+}
+
+article{
+    margin=auto;
    
 }
         #left {

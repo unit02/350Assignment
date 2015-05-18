@@ -6,6 +6,17 @@
     <link rel="stylesheet" type="text/css" href="scorePage.css" />
     <style type="text/css">
     </style>
+    
+    <script type="text/javascript">
+    document.getElementById("searchButton").onclick = function () {
+var p = window.createPopup()
+  p.show(150,150,200,50,document.body)
+
+        location.href = "\loginPage";
+    };
+</script>
+    
+    
 </head>
 
 <body>
@@ -28,10 +39,7 @@
         </div>
     </header>
 
-
-
     <article>
-    
         <div>
         <p> Select Division</p>
           <select>
@@ -41,9 +49,9 @@
             <option value="audi">Audi</option>
         </select>
         </div>
-        <div>
-         
-        </div>
+      
+
+
      
       
        
@@ -60,10 +68,14 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-
-    </article>
+  <button id="myButton" >Search</button>
+    <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "\loginPage.html";
+    };
+</script></article>
     <article>
-        <table border="3px">
+        <table border="3px" width=40%>
             <tr>
                 <td>
                     <table>
@@ -104,6 +116,55 @@
 
                             <td colspan="5">
                                 Winner : London Unspeakables
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+        
+           <table border="3px" width=40%>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th> <img float=left; src="logos/belgium.png" width=100px; />
+                            </th>
+
+                            <th>
+                                Blackpool Centaurs
+                            </th>
+
+                            <th> v
+                            </th>
+                            <th>
+                                Ireland Dragons
+                            </th>
+                            <th>
+                                <img src="logos/ireland.JPG" width=100px;/>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan=5>
+                                Location : London
+                                <br> Time : 16:30
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Score : 300
+                            </td>
+                            <td></td>
+                            <td colspan="2">
+                                Score : 310
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="5">
+                                Winner : Ireland Dragons
                             </td>
                         </tr>
                     </table>
