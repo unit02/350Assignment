@@ -69,12 +69,27 @@ table td{
 
 }
 
+
+p {
+    display: inline;
+}
+
 section{
     align-content: center;
    
 }
-
-
+        #left {
+            background-color: cyan;
+            display: inline;
+        }
+        #center {
+            background-color: yellow;
+            display: inline;
+        }
+        #right {
+            background-color: red;
+            display: inline;
+        }
 
 //From http://www.nowstartwebdesign.com/2014/09/pure-css-horizontal-drop-down-menu-bar.html
 .menu {
