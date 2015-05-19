@@ -6,17 +6,6 @@
     <link rel="stylesheet" type="text/css" href="scorePage.css" />
     <style type="text/css">
     </style>
-
-    <script type="text/javascript">
-        document.getElementById("searchButton").onclick = function () {
-            var p = window.createPopup()
-            p.show(150, 150, 200, 50, document.body)
-
-            location.href = "\loginPage";
-        };
-    </script>
-
-
 </head>
 
 <body>
@@ -43,14 +32,16 @@
 
     <article>
         <div>
-            <h1>Current Scores</h1>
+            <h1>Scores</h1>
             <p> Select Division :</p>
-            <select>
-                <option value="volvo">Adult Serious</option>
-                <option value="saab">Adult Casual</option>
-                <option value="mercedes">lasharn</option>
-                <option value="audi">Audi</option>
+            <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
+                <option value="ScorePage.html">Adult Serious</option>
+                <option value="ScorePage.html">Adult Casual</option>
+                <option value="ScorePage.html">Adult Legends</option>
+                <option value="ScorePage.html">Kids</option>
+                <option value="ScorePage">Seniors</option>
             </select>
+
         </div>
 
         <p>Select Week : </p>
@@ -66,12 +57,15 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-        <button id="myButton">Search</button>
-        <script type="text/javascript">
+        
+          <!--  <button id="myButton">Search</button>
+    <script type="text/javascript">
             document.getElementById("myButton").onclick = function () {
-                location.href = "\loginPage.html";
+                location.href = "\ScorePage2.html";
             };
         </script>
+-->
+
     </article>
     <article>
         <table border="3px" width=40%>
@@ -79,26 +73,26 @@
                 <td>
                     <table>
                         <tr>
-                            <th> <img float=left; src="logos/london.png" width=100px; height=130px/>
+                            <th> <img float=left; src="logos/giants.png" width=100px; />
                             </th>
 
                             <th>
-                                London Unspeakables
+                                Brighton Giants
                             </th>
 
                             <th> v
                             </th>
                             <th>
-                                Leeds Griffins
+                                Manchester Manticores
                             </th>
                             <th>
-                                <img src="logos/Leedbw.png" width=100px;/>
+                                <img src="logos/manticores.jpg" width=100px;/>
                             </th>
                         </tr>
                         <tr>
                             <td colspan=5>
-                                Location : Southampton
-                                <br> Time : 16:30
+                                Location : Manticores
+                                <br> Time : 17:30
                             </td>
 
                         </tr>
@@ -128,20 +122,20 @@
                 <td>
                     <table>
                         <tr>
-                            <th> <img float=left; src="logos/belgium.png" width=100px; />
+                            <th> <img float=left; src="logos/southhampton.png" width=100px; />
                             </th>
 
                             <th>
-                                Blackpool Centaurs
+                                Southampton Nifflers
                             </th>
 
                             <th> v
                             </th>
                             <th>
-                                Ireland Dragons
+                                Thames Tyrants
                             </th>
                             <th>
-                                <img src="logos/ireland.JPG" width=100px;/>
+                                <img src="logos/tb_logosmall.jpg" width=100px; />
                             </th>
                         </tr>
                         <tr>
@@ -167,9 +161,11 @@
                             </td>
                         </tr>
                     </table>
+
                 </td>
             </tr>
         </table>
+
     </article>
 
     <div id="footer">

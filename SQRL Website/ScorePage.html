@@ -6,17 +6,6 @@
     <link rel="stylesheet" type="text/css" href="scorePage.css" />
     <style type="text/css">
     </style>
-    
-    <script type="text/javascript">
-    document.getElementById("searchButton").onclick = function () {
-var p = window.createPopup()
-  p.show(150,150,200,50,document.body)
-
-        location.href = "\loginPage";
-    };
-</script>
-    
-    
 </head>
 
 <body>
@@ -43,13 +32,15 @@ var p = window.createPopup()
 
     <article>
         <div >
-            <h1>Current Scores</h1>
+            <h1>Scores</h1>
         <p> Select Division :</p>
-          <select>
-            <option value="volvo">Adult Serious</option>
-            <option value="saab">Adult Casual</option>
-            <option value="mercedes">lasharn</option>
-            <option value="audi">Audi</option>
+          <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
+            <option value="ScorePage2.html">Adult Serious</option>
+            <option value="ScorePage2.html">Adult Casual</option> <option value="ScorePage2.html">Adult Legends</option>
+            <option value="ScorePage2.html">Kids</option>
+              <option value="ScorePage2.html">Seniors</option>
+        
+        
         </select>
         </div>
 
@@ -69,9 +60,10 @@ var p = window.createPopup()
   <button id="myButton" >Search</button>
     <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
-        location.href = "\loginPage.html";
+        location.href = "\ScorePage2.html";
     };
-</script></article>
+</script>
+    </article>
     <article>
         <table border="3px" width=40%>
             <tr>
@@ -97,7 +89,7 @@ var p = window.createPopup()
                         <tr>
                             <td colspan=5>
                                 Location : Southampton
-                                <br> Time : 16:30
+                                <br> Time : 17:30
                             </td>
 
                         </tr>
@@ -166,9 +158,11 @@ var p = window.createPopup()
                             </td>
                         </tr>
                     </table>
+                    
                 </td>
             </tr>
         </table>
+        
     </article>
 
     <div id="footer">

@@ -3,7 +3,7 @@
 
 <head>
     <title>SQRL League</title>
-    <link rel="stylesheet" type="text/css" href="loginPage.css" />
+    <link rel="stylesheet" type="text/css" href="mainPage.css" />
     <style type="text/css">
     </style>
 </head>
@@ -18,7 +18,7 @@
                 </li>
                 <li><a href="#">Schedule</a>
                 </li>
-                <li><a href="C:/Users/Elizabeth/SkyDrive/Class%20Notes/350/Assignment%203/350Assignment/SQRL%20Website/SecondPage.html">Scores</a>            <li><a href="#">Rankings</a>
+                <li><a id="scoresTab">Scores</a>            <li><a href="#">Rankings</a>
                 </li>
                 <li><a href="#">About</a>
                 </li>
@@ -27,6 +27,13 @@
                  <li ><a href="#">Login</a>
                 </li>
             </ul>
+            
+            
+                <script type="text/javascript">
+ document.getElementById("scoresTab").onclick = function () {
+        location.href = "\ScorePage.html";
+    };
+</script>
         </div>
 </header>
      

@@ -4,24 +4,19 @@
         margin: auto;
     }
 			body {			
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
-.column1{
-    
-}
-
-			.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;
-           font-family: Helvetica, sans-serif;
+				margin: 0 auto;
                 
             }
-			.column3 {
-				margin-right: 0%;}
+			#content {
+				overflow: auto;
+            
+            }
+			#nav, #feature, #footer {
+				margin: 1%;
+                
+            }
+
+		
 			li {
 				display:inline;
 				padding: 1%;}
@@ -37,6 +32,7 @@
 				background-color: #646A7C;}
 article{
     margin-top: 20px;
+   
 }
 
 .line-separator{
