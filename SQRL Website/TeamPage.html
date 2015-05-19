@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SQRL League</title>
+    <link rel="stylesheet" type="text/css" href="scorePage.css" />
+    <style type="text/css">
+    </style>
+
+    <script type="text/javascript">
+        document.getElementById("searchButton").onclick = function () {
+            var p = window.createPopup()
+            p.show(150, 150, 200, 50, document.body)
+
+            location.href = "\loginPage";
+        };
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="qudditch_logo_black.jpg" />
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a>
+                </li>
+                <li><a href="#">Schedule</a>
+                </li>
+                <li><a href="#">Scores</a>
+                </li>
+                <li><a href="#">Rankings</a>
+
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </header>
+    <article>
+     <table border="3px" width=40%>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th><img float=left; src="logos/ireland.JPG" width=100px;/>
+                            </th>
+                            <th>
+                                Ireland Dragons
+                            </th>
+                         
+                        </tr>
+                        <tr>
+                            <td colspan=5>
+                                Location : London
+                                <br> Time : 16:30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Score : 300
+                            </td>
+                            <td></td>
+                            <td colspan="2">
+                                Score : 310
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                Winner : Ireland Dragons
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+</article>
+
+
+    <div id="footer">
+        <p>&copy; Copyright 2011</p>
+    </div>
+</body>
+
+</html>

@@ -33,7 +33,7 @@
 			#feature, .article {
                     height: 10em;
 				margin-bottom: 1em;
-				background-color: #646A7C;}
+				background-color: #2b2f3a;}
 
 .line-separator{
 height:3px;
@@ -42,6 +42,10 @@ background:#2b2f3a;
 
 border-bottom:3px solid #ededed;
 
+}
+
+p{
+    color: aliceblue;
 }
 
 h1{
