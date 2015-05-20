@@ -9,165 +9,165 @@
 </head>
 
 <body>
+
     <header>
         <img src="qudditch_logo_black.jpg" />
 
         <div class="menu">
             <ul>
-                <li><a href="#">Home</a>
+                <li><a href="mainPage.html">Home</a>
                 </li>
                 <li><a href="#">Schedule</a>
                 </li>
-                <li><a href="#">Scores</a>
+                <li><a href="ScorePage.html">Scores</a>
                 </li>
                 <li><a href="#">Rankings</a>
 
-                    <li><a href="#">About</a>
+                    <li><a href="documentation.html">About</a>
                     </li>
                     <li><a href="#">Contact</a>
+                    </li>
+                    <li class="float-right"><a href="#">Log in</a>
                     </li>
             </ul>
         </div>
     </header>
+    <div class="background-gray">
+        <article>
+            <div class="background-gray">
+                <div class="background-white" width=40px>
+                    <h1>Scores</h1>
+                    <p> Select Division :</p>
+                    <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
+                        <option value="ScorePage2.html">Adult Serious</option>
+                        <option value="ScorePage2.html">Adult Casual</option>
+                        <option value="ScorePage2.html">Adult Legends</option>
+                        <option value="ScorePage2.html">Kids</option>
+                        <option value="ScorePage2.html">Seniors</option>
+                    </select>
+                </div>
+                <div class="background-white" width=40px>
+                    <p>Select Week : </p>
 
-    <article>
-        <div cl>
-            <h1>Scores</h1>
-            <p> Select Division :</p>
-            <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
-                <option value="ScorePage2.html">Adult Serious</option>
-                <option value="ScorePage2.html">Adult Casual</option>
-                <option value="ScorePage2.html">Adult Legends</option>
-                <option value="ScorePage2.html">Kids</option>
-                <option value="ScorePage2.html">Seniors</option>
+                    <select>
+                        <option value="1">1 </option>
+                        <option value="2">2 </option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 </option>
+                        <option value="6">6 </option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+
+        </article>
+        <article class="background-white">
+            <table class="topborder" width=100%>
+                <tr>
+                    <td>
+                        <table width=100%>
+                            <tr>
+                                <th> <img float=left; src="logos/london.png" width=100px; height=130px/>
+                                </th>
+
+                                <th>
+                                    London Unspeakables
+                                </th>
+
+                                <th> v
+                                </th>
+                                <th>
+                                    Leeds Griffins
+                                </th>
+                                <th>
+                                    <img src="logos/Leedbw.png" width=100px;/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan=5>
+                                    Location : <b>Southampton</b>
+                                    <br> Time : <b>17:30</b>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Score : <b>420</b>
+                                </td>
+                                <td></td>
+                                <td colspan="2">
+                                    Score : <b>340</b>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td colspan="5">
+                                    Winner : <b>London Unspeakables</b>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
 
 
-            </select>
+            <table class="topborder" width=100%>
+                <tr>
+                    <td>
+                        <table width=100%>
+                            <tr>
+                                <th> <img float=left; src="logos/belgium.png" width=100px; />
+                                </th>
+
+                                <th>
+                                    Blackpool Centaurs
+                                </th>
+
+                                <th> v
+                                </th>
+                                <th>
+                                    Ireland Dragons
+                                </th>
+                                <th>
+                                    <img src="logos/ireland.JPG" width=100px;/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan=5>
+                                    Location : <b>London</b>
+                                    <br> Time : <b>16:30</b>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2" width=50%>
+                                    Score : <b>300</b>
+                                </td>
+                                <td></td>
+                                <td colspan="2" width=50%>
+                                    Score : <b>310</b>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td colspan="5">
+                                    Winner : <b>Ireland Dragons</b>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+        </article>
         </div>
-
-        <p>Select Week : </p>
-        <select>
-            <option value="1">1 </option>
-            <option value="2">2 </option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 </option>
-            <option value="6">6 </option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-        <button id="myButton">Search</button>
-        <script type="text/javascript">
-            document.getElementById("myButton").onclick = function () {
-                location.href = "\ScorePage2.html";
-            };
-        </script>
-    </article>
-    <article>
-        <table border="3px" width=40%>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <th> <img float=left; src="logos/london.png" width=100px; height=130px/>
-                            </th>
-
-                            <th>
-                                London Unspeakables
-                            </th>
-
-                            <th> v
-                            </th>
-                            <th>
-                                Leeds Griffins
-                            </th>
-                            <th>
-                                <img src="logos/Leedbw.png" width=100px;/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td colspan=5>
-                                Location : Southampton
-                                <br> Time : 17:30
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                Score : 420
-                            </td>
-                            <td></td>
-                            <td colspan="2">
-                                Score : 340
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td colspan="5">
-                                Winner : London Unspeakables
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-
-
-        <table border="3px" width=40%>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <th> <img float=left; src="logos/belgium.png" width=100px; />
-                            </th>
-
-                            <th>
-                                Blackpool Centaurs
-                            </th>
-
-                            <th> v
-                            </th>
-                            <th>
-                                Ireland Dragons
-                            </th>
-                            <th>
-                                <img src="logos/ireland.JPG" width=100px;/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td colspan=5>
-                                Location : London
-                                <br> Time : 16:30
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                Score : 300
-                            </td>
-                            <td></td>
-                            <td colspan="2">
-                                Score : 310
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td colspan="5">
-                                Winner : Ireland Dragons
-                            </td>
-                        </tr>
-                    </table>
-
-                </td>
-            </tr>
-        </table>
-
-    </article>
-
-    <div id="footer">
-        <p>&copy; Copyright 2011</p>
+        <div id="footer">
+            <p>&copy; Copyright 2011</p>
+        </div>
     </div>
 </body>
 
