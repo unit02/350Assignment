@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <header>
         <img src="qudditch_logo_black.jpg" />
 
@@ -26,39 +27,41 @@
                     </li>
                     <li><a href="#">Contact</a>
                     </li>
+                    <li class="float-right"><a href="#">Log in</a>
+                    </li>
             </ul>
         </div>
     </header>
 
     <article>
-        <div>
-            <h1>Scores</h1>
-            <p> Select Division :</p>
-            <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
-                <option value="ScorePage.html">Adult Serious</option>
-                <option value="ScorePage.html">Adult Casual</option>
-                <option value="ScorePage.html">Adult Legends</option>
-                <option value="ScorePage.html">Kids</option>
-                <option value="ScorePage">Seniors</option>
-            </select>
-
-        </div>
-
-        <p>Select Week : </p>
-        <select>
-            <option value="1">1 </option>
-            <option value="2">2 </option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 </option>
-            <option value="6">6 </option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-        
-          <!--  <button id="myButton">Search</button>
+        <div class="background-gray">
+            <div class="background-white" width=40px>
+                <h1>Scores</h1>
+                <p> Select Division :</p>
+                <select onchange="window.location.replace(this.options[this.selectedIndex].value)">
+                    <option value="ScorePage.html">Adult Serious</option>
+                    <option value="ScorePage.html">Adult Casual</option>
+                    <option value="ScorePage.html">Adult Legends</option>
+                    <option value="ScorePage.html">Kids</option>
+                    <option value="ScorePage">Seniors</option>
+                </select>
+            </div>
+            <div class="background-white" width=40px>
+                <p>Select Week : </p>
+                <select>
+                    <option value="1">1 </option>
+                    <option value="2">2 </option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 </option>
+                    <option value="6">6 </option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <!--  <button id="myButton">Search</button>
     <script type="text/javascript">
             document.getElementById("myButton").onclick = function () {
                 location.href = "\ScorePage2.html";
@@ -67,7 +70,7 @@
 -->
 
     </article>
-    <article>
+    <article class="background-white">
         <table border="3px" width=40%>
             <tr>
                 <td>
@@ -167,7 +170,7 @@
         </table>
 
     </article>
-
+    </div>
     <div id="footer">
         <p>&copy; Copyright 2011</p>
     </div>
