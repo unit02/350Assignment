@@ -54,7 +54,7 @@
 	.line-separator {
 	    height: 3px;
 	    background: #2b2f3a;
-	    border-bottom: 3px solid #ededed;
+	    border-bottom: 3px solid #ghostwhite;
 	}
 	
 	p,
@@ -71,7 +71,7 @@
 	    margin: 0%;
 	    text-align: center;
 	    font-size: .9cm;
-	    color: aliceblue;
+	    color: ghostwhite;
 	    padding: 2%;
 	    border-bottom: 3px solid #ededed;
 	}

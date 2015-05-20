@@ -16,7 +16,7 @@
 	}
 	
 	article {
-	    padding-top: 10px;
+	    padding-top: .01%;
 	    width: 50%;
 	    text-align: center;
 	}
@@ -24,7 +24,6 @@
 	h1 {
 	    padding-top: 20px;
 	    font-family: Helvetica, sans-serif;
-	    margin: 1%;
 	    text-align: center;
 	    font-size: .9cm;
 	}
@@ -48,6 +47,7 @@
 	.background-white {
 	    background: white;
 	    text-align: center;
+	    padding-top: 10px;
 	}
 	
 	.background-gray {
@@ -61,11 +61,13 @@
 	}
 	
 	.topborder {
-	    border-top: 10px solid;
+	    border-top: 3px solid;
 	}
 	
-	table {
-	    border-top: 10px;
+	#footer {
+	    background-color: #2b2f3a;
+	    color: white;
+	    padding: 5px;
 	}
 	
 	//From http://www.nowstartwebdesign.com/2014/09/pure-css-horizontal-drop-down-menu-bar.html
